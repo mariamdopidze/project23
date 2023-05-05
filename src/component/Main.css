@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 30px; 
+}
+.gallery{
+    margin-bottom: 30px;
+    width: 20%;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
